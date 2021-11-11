@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
-gem 'telegram_bot'
-group :development do
-  gem 'pry'
-end
+gem 'telegram-bot-ruby'
+gem 'json'
+#gem 'net-http-persistent'
+#gem 'rubocop', require: false
+gem 'sqlite3'
